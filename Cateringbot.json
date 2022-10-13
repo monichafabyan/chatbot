@@ -1,0 +1,139 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"	
+      ],
+      "responses": [
+        "Hai! Cateringkbot di sini. Mau pesan apa nih?",
+        "Halo! Saya Cateringkbot, salam kenal ya! Mau pesan makanan atau minuman yaa?",
+        "Helo! Ini Cateringbot. Lagi mau pesan apa nih?",
+	"Halo! Dengan siapa saya berbicara?
+      ]
+    },
+    {
+      "tag": "CateringBot",
+      "patterns": [
+        "Apa itu CateringBot?",
+        "Siapa CateringBot?",
+	"Bagaimana pesan CateringBot"
+      ],
+      "responses": [
+        "CateringBot adalah virtual astiten Kedai G Food!",
+        "CateringBot adalah asisten pemesanan online Kedai G Food!",
+	"Silahkan memilih menu pada CateringBot!
+      ]
+    },
+    {
+      "tag": "pemesanan_cateringbot",
+      "patterns": [
+        "Saya ingin pesan makanan",
+        "Apa saja menu makanan disini?",
+        "Saya ingin pesan minuman",
+	"Berapa lama waktu makanan dan minuman selesai?"
+      ],
+      "responses": [
+        "Berikut ini daftar menu Kedai G Food, roti bakar coklat, rotibakar keju coklat, rotibakar tiramisu, rotibakar grentea, rotibakar strawberry, surma toping telur, surma toping sosis, surma original, es teh manis, teh manis hangat, es jeruk, jeruk hangat, es milo, kopi latte, kopi susu, kopi ekspreso, kopi brown sugar",
+        "Menu makanan Kedai G Food, roti bakar coklat, rotibakar keju coklat, rotibakar tiramisu, rotibakar grentea, rotibakar strawberry, surma toping telur, surma toping sosis, surma original",
+        "Menu minuman Kedai G Food es teh manis, teh manis hangat, es jeruk, jeruk hangat, es milo, kopi latte, kopi susu, kopi ekspreso, kopi brown sugar",
+	"Makanan akan selesai dalam 45menit, mohon ditunggu"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "pesan_makanan_cateringbot",
+      "patterns": [
+        "Saya ingin pesan makanan"
+      ],
+      "responses": [
+        "Berikut ini menu makanan Kedai G Food, roti bakar coklat, rotibakar keju coklat, rotibakar tiramisu, rotibakar grentea, rotibakar strawberry, surma toping telur, surma toping sosis, surma original."
+      ]
+    },
+    {
+      "tag": "pesan_minuman_catertingbot",
+      "patterns": [
+        "Saya ingin pesan minuman"
+      ],
+      "responses": [
+        "Menu minuman Kedai G Food es teh manis, teh manis hangat, es jeruk, jeruk hangat, es milo, kopi latte, kopi susu, kopi ekspreso, kopi brown sugar."
+      ]
+    },
+    {
+      "tag": "menu_pesanan",
+      "patterns": [
+        "Saya pesan es teh manis dan kopi latte"
+      ],
+      "responses": [
+        "Berikut pesanan yang dipilih es teh manis dan kopi latte."
+      ]
+    },
+    {
+      "tag": "waktu_pemesanan",
+      "patterns": [
+        "Berapa lama waktu makanan dan minuman selesai?"
+      ],
+      "responses": [
+        "Makanan akan selesai dalam 45menit, mohon ditunggu"
+      ]
+    },
+    {
+      "tag": "cara_pesan_cateringbot",
+      "patterns": [
+        "Bagaimana pesan CateringBot?"
+      ],
+      "responses": [
+        "Silahkan memilih menu pada CateringBot!"
+      ]
+    }
+  ]
+}
